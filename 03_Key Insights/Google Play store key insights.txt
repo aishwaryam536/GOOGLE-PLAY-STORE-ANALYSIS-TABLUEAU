@@ -1,0 +1,47 @@
+# Google Play Store Analysis – Key Insights
+
+## 1. Project Overview
+
+The project analyzes Google Play Store applications using Tableau, focusing on ratings, reviews, installations, content ratings, and app prices.
+
+## 2. Content Rating vs Reviews
+
+The dashboard compares review counts across different content-rating categories.
+
+The visualization shows that the **Everyone** category has the largest review volume among the displayed content-rating categories.
+
+## 3. Top Apps by Rating
+
+The dashboard compares the top-rated applications and shows rating values for the selected top apps.
+
+This provides a quick way to identify highly rated applications within the dataset.
+
+## 4. Top Free Apps by Installs
+
+The dashboard compares free applications based on installation counts.
+
+The visualization highlights differences in app installation levels and helps identify applications with high user reach.
+
+## 5. App Price Analysis
+
+The treemap provides a visual comparison of app prices.
+
+It allows higher-priced and lower-priced applications to be compared within the selected app data.
+
+## 6. Overall Dashboard Insight
+
+The dashboard combines app ratings, reviews, installations, content ratings, and prices into a single analytical view.
+
+This provides a convenient way to explore different characteristics of applications in the Google Play Store dataset.
+
+## 7. Project Outcome
+
+The project demonstrates how Tableau can be used to transform application data into interactive and visually understandable business insights.
+
+The dashboard provides a consolidated view of app popularity, user engagement, ratings, content categories, and pricing.
+
+## 8. Author
+
+**Aishwarya M**
+
+Data Analytics | Power BI | Tableau
