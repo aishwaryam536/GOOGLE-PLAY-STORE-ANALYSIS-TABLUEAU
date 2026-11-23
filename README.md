@@ -1,42 +1,120 @@
-# Google Play Store Analysis Dashboard
+# Google Play Store Analysis – Tableau
 
 ## Project Overview
-This project analyzes Google Play Store applications to understand app ratings, installation trends, pricing, and content ratings using Tableau. An interactive dashboard helps users explore app performance and compare applications across different categories.
 
-## Objectives
-- Analyze app ratings and reviews.
-- Identify the top 10 apps by rating.
-- Identify the top 10 free apps by installs.
-- Identify the top 10 apps by price.
-- Explore the relationship between content rating and reviews.
+This project analyzes Google Play Store applications using Tableau to understand app ratings, reviews, installations, content ratings, and pricing patterns.
 
-## Dataset
-The dataset contains information about Google Play Store applications, including app names, categories, ratings, reviews, prices, installs, and content ratings.
+The project presents the analysis through an interactive Tableau dashboard containing multiple visualizations for app-level analysis.
 
-## Tools Used
-- Tableau — data visualization and interactive dashboard creation.
-- Microsoft Excel — dataset inspection and data cleaning.
+## Dashboard Analysis
 
-## Dashboard Features
-- Top 10 Apps by Rating
-- Top 10 Free Apps by Installs
-- Top 10 Apps by Price
-- Content Rating vs Reviews
+### 1. Content Rating vs Reviews
 
-## Data Preparation
-- Inspected the dataset for missing and inconsistent values.
-- Prepared the installs field for numerical analysis.
-- Used relevant filters to focus on free applications and top-performing apps.
+This visualization compares the number of reviews across different content-rating categories, including:
+
+- Everyone
+- Everyone 10+
+- Mature 17+
+- Teen
+
+It helps compare review volume across different content-rating groups.
+
+### 2. Top 10 Apps by Rating
+
+The dashboard identifies the top-rated applications based on their rating values.
+
+The visualization provides a comparison of the highest-rated apps included in the dataset.
+
+### 3. Top 10 Free Apps by Installs
+
+This visualization compares free applications based on installation counts.
+
+It helps identify apps with high installation numbers among the free-app category.
+
+### 4. Top 10 Apps by Price
+
+The dashboard uses a treemap to visualize apps based on their price.
+
+The size of each section represents the relative value of the selected apps, allowing price differences to be compared visually.
+
+## Key Metrics & Analysis Areas
+
+- App Ratings
+- Reviews
+- Installations
+- App Prices
+- Content Ratings
+- Free Apps
+- Paid Apps
+- Top-Rated Applications
+- Highly Installed Applications
+
+## Tools & Technologies
+
+- Tableau
+- Data Cleaning
+- Data Visualization
+- Interactive Dashboard Development
+
+## Dashboard Preview
+
+![Uploading Google_Play_Store_Analysis_Dashboard.jpg…]()
+
 
 ## Key Insights
-The dashboard is designed to help explore which apps have high ratings, which free apps have the greatest number of installs, and how app prices and content ratings vary.
 
-*Note: Add specific numerical findings after completing your analysis.*
+### App Ratings
 
-## Project Files
-- `Google_Play_Store.xlsx` — source dataset.
-- Tableau workbook or dashboard — interactive visualizations.
-- Dashboard screenshots — visual representation of the results.
+The dashboard provides a comparison of highly rated applications and allows users to identify apps with strong ratings.
 
-## Conclusion
-This project demonstrates the use of Tableau to transform application data into interactive visualizations and communicate insights about app performance, popularity, ratings, and pricing.
+### Reviews and Content Rating
+
+Review counts vary across content-rating categories. The dashboard allows review volume to be compared between different audience categories.
+
+### App Installations
+
+The top free-app analysis highlights applications with high installation counts and provides a comparison of their relative popularity.
+
+### App Pricing
+
+The treemap provides a visual comparison of app prices and helps identify applications with relatively higher pricing.
+
+### Interactive Analysis
+
+The dashboard combines multiple visualizations to provide a consolidated view of app ratings, reviews, installations, content ratings, and pricing.
+
+## Project Outcome
+
+The project successfully transforms Google Play Store application data into an interactive Tableau dashboard.
+
+The dashboard provides a visual approach to understanding app popularity, ratings, reviews, content categories, and pricing.
+
+This project demonstrates practical skills in data visualization, dashboard development, analytical thinking, and Tableau.
+
+## Project Structure
+
+```text
+google-play-store-analysis-tableau/
+│
+├── README.md
+│
+├── Dashboard/
+│   └── Google_Play_Store_Analysis.twbx
+│
+├── Dataset/
+│   └── google_play_store_cleaned.csv
+│
+├── Documentation/
+│   └── Google_Play_Store_Insights.md
+│
+└── Screenshots/
+    └── google_play_store_dashboard.png
+```
+
+## Author
+
+**Aishwarya M**
+
+Data Analytics | Power BI | Tableau | SQL | Python
+
+This project was developed as part of my Data Analytics portfolio to demonstrate practical skills in Tableau dashboard development and data visualization.
