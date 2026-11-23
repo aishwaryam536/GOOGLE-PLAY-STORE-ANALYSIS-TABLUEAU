@@ -58,8 +58,7 @@ The size of each section represents the relative value of the selected apps, all
 
 ## Dashboard Preview
 
-![Uploading Google_Play_Store_Analysis_Dashboard.jpg…]()
-
+<img width="1217" height="668" alt="Google_Play_Store_Analysis_Dashboard" src="https://github.com/user-attachments/assets/a84599aa-b852-4d66-b23e-3bc854271781" />
 
 ## Key Insights
 
@@ -96,19 +95,23 @@ This project demonstrates practical skills in data visualization, dashboard deve
 ```text
 google-play-store-analysis-tableau/
 │
-├── README.md
 │
-├── Dashboard/
-│   └── Google_Play_Store_Analysis.twbx
+├── 01_Dataset/
+│   └── Google_Play_Store_Cleaned
 │
-├── Dataset/
-│   └── google_play_store_cleaned.csv
+├── 02_Tableu/
+│   └── Google_Play_Store_Analysis.twb
 │
-├── Documentation/
+├── 03_Key_Insights/
 │   └── Google_Play_Store_Insights.md
 │
 └── Screenshots/
-    └── google_play_store_dashboard.png
+    └── Google_Play_Store_Analysis_dashboard
+    └── Content Rating vs Reviews
+    └── Top 10 Apps by Price
+    └── Top 10 Apps by Installs
+    └── Top 10 Apps by Ratings
+
 ```
 
 ## Author
